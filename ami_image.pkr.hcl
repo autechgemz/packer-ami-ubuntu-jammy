@@ -83,8 +83,7 @@ build {
 
   provisioner "shell" {
     inline = [
-      "sudo mv /tmp/99-bootstrap.cfg /etc/cloud/cloud.cfg.d/99-bootstrap.cfg",
-      "rm -f /tmp/99-bootstrap.cfg"
+      "sudo mv /tmp/99-bootstrap.cfg /etc/cloud/cloud.cfg.d/99-bootstrap.cfg"
       ]
   }
 
