@@ -1,0 +1,17 @@
+---
+
+- hosts: all
+  roles:
+    - autechgemz.timezone
+    - autechgemz.chronyd
+    - autechgemz.needrestart
+    - autechgemz.unattended_upgrades
+    - autechgemz.journald
+    - autechgemz.rsyslog
+    - autechgemz.logrotate
+    - autechgemz.sudo
+    - autechgemz.sysctl
+    - autechgemz.sshd
+    - autechgemz.sshguard
+    - autechgemz.tcpd
+    - autechgemz.auditd
